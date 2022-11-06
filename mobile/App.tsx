@@ -10,7 +10,7 @@ export default function App() {
   const [fontsLoadad] = useFonts({ Roboto_400Regular, Roboto_500Medium, Roboto_700Bold });
 
   return (
-    <NativeBaseProvider>
+    <NativeBaseProvider theme={THEME}>
       <StatusBar 
         barStyle="light-content"
         backgroundColor="transparent"
